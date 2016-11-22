@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem15 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem16 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem17 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem18 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem19 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem1 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem2 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem3 = new Telerik.WinControls.UI.RadListDataItem();
@@ -38,11 +43,6 @@
             Telerik.WinControls.UI.RadListDataItem radListDataItem7 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem8 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem9 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem10 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem11 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem12 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem13 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem14 = new Telerik.WinControls.UI.RadListDataItem();
             this.radTitleBar1 = new Telerik.WinControls.UI.RadTitleBar();
             this.roundRectShapeTitle = new Telerik.WinControls.RoundRectShape(this.components);
             this.roundRectShapeForm = new Telerik.WinControls.RoundRectShape(this.components);
@@ -91,7 +91,7 @@
             this.radTitleBar1.Size = new System.Drawing.Size(402, 23);
             this.radTitleBar1.TabIndex = 0;
             this.radTitleBar1.TabStop = false;
-            this.radTitleBar1.Text = "ShapedForm1";
+            this.radTitleBar1.Text = "Outbound Calls";
             // 
             // roundRectShapeTitle
             // 
@@ -169,21 +169,21 @@
             // day
             // 
             this.day.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            radListDataItem1.Text = "1";
-            radListDataItem1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem2.Text = "2";
-            radListDataItem2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem3.Text = "3";
-            radListDataItem3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem4.Text = "4";
-            radListDataItem4.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem5.Text = "5";
-            radListDataItem5.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.day.Items.Add(radListDataItem1);
-            this.day.Items.Add(radListDataItem2);
-            this.day.Items.Add(radListDataItem3);
-            this.day.Items.Add(radListDataItem4);
-            this.day.Items.Add(radListDataItem5);
+            radListDataItem15.Text = "1";
+            radListDataItem15.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem16.Text = "2";
+            radListDataItem16.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem17.Text = "3";
+            radListDataItem17.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem18.Text = "4";
+            radListDataItem18.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem19.Text = "5";
+            radListDataItem19.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.day.Items.Add(radListDataItem15);
+            this.day.Items.Add(radListDataItem16);
+            this.day.Items.Add(radListDataItem17);
+            this.day.Items.Add(radListDataItem18);
+            this.day.Items.Add(radListDataItem19);
             this.day.Location = new System.Drawing.Point(293, 123);
             this.day.Name = "day";
             this.day.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -194,18 +194,18 @@
             // month
             // 
             this.month.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            radListDataItem6.Text = "فروردین";
-            radListDataItem6.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem7.Text = "اردیبهشت";
-            radListDataItem7.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem8.Text = "خرداد";
-            radListDataItem8.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem9.Text = "تیر";
-            radListDataItem9.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.month.Items.Add(radListDataItem6);
-            this.month.Items.Add(radListDataItem7);
-            this.month.Items.Add(radListDataItem8);
-            this.month.Items.Add(radListDataItem9);
+            radListDataItem1.Text = "فروردین";
+            radListDataItem1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem2.Text = "اردیبهشت";
+            radListDataItem2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem3.Text = "خرداد";
+            radListDataItem3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem4.Text = "تیر";
+            radListDataItem4.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.month.Items.Add(radListDataItem1);
+            this.month.Items.Add(radListDataItem2);
+            this.month.Items.Add(radListDataItem3);
+            this.month.Items.Add(radListDataItem4);
             this.month.Location = new System.Drawing.Point(194, 123);
             this.month.Name = "month";
             this.month.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -220,12 +220,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.year.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            radListDataItem10.Text = "1394";
-            radListDataItem11.Text = "1395";
-            radListDataItem12.Text = "1396";
-            this.year.Items.Add(radListDataItem10);
-            this.year.Items.Add(radListDataItem11);
-            this.year.Items.Add(radListDataItem12);
+            radListDataItem5.Text = "1394";
+            radListDataItem6.Text = "1395";
+            radListDataItem7.Text = "1396";
+            this.year.Items.Add(radListDataItem5);
+            this.year.Items.Add(radListDataItem6);
+            this.year.Items.Add(radListDataItem7);
             this.year.Location = new System.Drawing.Point(123, 123);
             this.year.Name = "year";
             this.year.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -254,13 +254,13 @@
             // 
             // duration
             // 
-            radListDataItem13.Text = "15 دقیقه";
-            radListDataItem13.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem14.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            radListDataItem14.Text = "30 دقیقه";
-            radListDataItem14.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.duration.Items.Add(radListDataItem13);
-            this.duration.Items.Add(radListDataItem14);
+            radListDataItem8.Text = "15 دقیقه";
+            radListDataItem8.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem9.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            radListDataItem9.Text = "30 دقیقه";
+            radListDataItem9.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.duration.Items.Add(radListDataItem8);
+            this.duration.Items.Add(radListDataItem9);
             this.duration.Location = new System.Drawing.Point(252, 145);
             this.duration.Name = "duration";
             this.duration.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -302,7 +302,7 @@
             this.Name = "ShapedForm1";
             this.Shape = this.roundRectShapeForm;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ShapedForm1";
+            this.Text = "Outbound Calls";
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.reportSelector)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();

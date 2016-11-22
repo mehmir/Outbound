@@ -226,7 +226,7 @@ namespace OutboundCalls
             {
                 try
                 {
-                    int startI = 3; int startJ = 3;
+                    int startI = 1; int startJ = 2;
                     worksheet = package.Workbook.Worksheets.Add("تعداد تماسهای خارجی");
                     var start = StartObservation;
                     var end = EndObservation;
@@ -262,11 +262,10 @@ namespace OutboundCalls
                     SetColor(worksheet.Cells[startI, startJ - 1, startI, j - 1], Color.LightGray);
                     SetColor(worksheet.Cells[startI, startJ - 1, startI + Employees.Count, startJ - 1], Color.LightGray);
 
-                    //SetBorder(worksheet.Cells[2, 8, 2, 11]);
-                    //SetSampleCell(worksheet.Cells[2, 8], "D", ShiftType.D);
-                    //SetSampleCell(worksheet.Cells[2, 9], "R", ShiftType.R);
-                    //SetSampleCell(worksheet.Cells[2, 10], "Other", ShiftType.None);
-                    //SetSampleCell(worksheet.Cells[2, 11], "None", null);
+                    SetBorder(worksheet.Cells[startI + Employees.Count + 2, startJ - 1, startI + Employees.Count + 4, startJ - 1]);
+                    SetSampleCell(worksheet.Cells[startI + Employees.Count + 2, startJ - 1], "Reyhoon", ShiftType.D);
+                    SetSampleCell(worksheet.Cells[startI + Employees.Count + 3, startJ - 1], "Other Shifts", ShiftType.None);
+                    SetSampleCell(worksheet.Cells[startI + Employees.Count + 4, startJ - 1], "None", null);
 
                     SetBorder(worksheet.Cells[startI, startJ - 1, startI + Employees.Count, j - 1]);
                     //SetBorder(worksheet.Cells[2, 3, 2, 5]);
