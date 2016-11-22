@@ -34,8 +34,6 @@ C:\Users\mehdi\Documents\Visual Studio 2015\Projects\OutboundCalls\OutboundCalls
 C:\Users\mehdi\Documents\Visual Studio 2015\Projects\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.PivotGrid.xml
 C:\Users\mehdi\Documents\Visual Studio 2015\Projects\OutboundCalls\OutboundCalls\bin\Debug\TelerikData.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\OutboundCalls.exe.config
-C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.exe
-C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.pdb
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\OutboundCalls.exe
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\OutboundCalls.pdb
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\DevComponents.DotNetBar2.dll
@@ -52,7 +50,6 @@ C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.UI.dll
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\TelerikCommon.dll
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\TelerikData.dll
-C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\EPPlus.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.ChartView.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.GridView.xml
@@ -61,9 +58,11 @@ C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.RichTextEditor.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\Telerik.WinControls.UI.xml
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\bin\Debug\TelerikData.xml
-C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.csprojResolveAssemblyReference.cache
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.Form1.resources
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.Properties.Resources.resources
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.ShapedForm1.resources
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.csproj.GenerateResource.Cache
 C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.exe.licenses
+C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.exe
+C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.pdb
+C:\Users\mehdi\Desktop\OutboundGit\OutboundCalls\OutboundCalls\obj\Debug\OutboundCalls.csprojResolveAssemblyReference.cache

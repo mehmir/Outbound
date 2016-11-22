@@ -215,7 +215,9 @@ namespace OutboundCalls
 
         public void WritetoFile()
         {
-            var name = string.Format(OutputPath + "/" + OutputName, CurrentDate.ToString().Replace("/","-"));
+            var name = OutputPath == string.Empty ?
+                            string.Format(OutputName, CurrentDate.ToString().Replace("/", "-")) :
+                            string.Format(OutputPath + "/" + OutputName, CurrentDate.ToString().Replace("/", "-"));
             FileInfo output = new FileInfo(name);
             ExcelWorksheet worksheet;
 
